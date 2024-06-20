@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact button {
+    background-color: #FF3C3F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.guest-rooms {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.guest-rooms h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.book-now {
+    background-color: #FF3C3F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.room-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+}
